@@ -1,38 +1,41 @@
 {
-    "usuarios": [
+   "usuarios": [
+      {
+         "id": 1,
+         "apellido_paterno": "Alfaro",
+         "apellido_materno": "Quinteros",
+         "nombre": "Danilo",
+         "username": "dalfaro",
+         "password": "827ccb0eea8a706c4c34a16891f84e7b",
+         "userType": "1"
+      },
+      {
+         "id": 2,
+         "apellido_paterno": "Alfaro",
+         "apellido_materno": "Badilla",
+         "nombre": "Soledad",
+         "username": "salfaro",
+         "password": "5cb45b85e3aa6ae16ac66e57377299c8",
+         "userType": "0"
+      }
+   ],
+
+   "documentos": [
        {
-          "id": 1,
-          "apellido_paterno": "Alfaro",
-          "apellido_materno": "Quinteros",
-          "nombre": "Danilo",
-          "username": "dalfaro",
-          "password": "827ccb0eea8a706c4c34a16891f84e7b"
-       },
+          "tipodoc": "BLT",
+          "sucursal": "913",
+          "correlativo": "2233111",
+          "mail": "dalfaro@mail.com",
+          "fechaRegistro": "20220903",
+          "estado": "E"
+        },
        {
-          "id": 2,
-          "apellido_paterno": "Alfaro",
-          "apellido_materno": "Badilla",
-          "nombre": "Soledad",
-          "username": "salfaro",
-          "password": "5cb45b85e3aa6ae16ac66e57377299c8"
-       }
-    ],
-    "documentos": [
-        {
-           "tipodoc": "BLT",
-           "sucursal": "913",
-           "correlativo": "2233111",
-           "mail": "dalfaro@mail.com",
+           "tipodoc": "FME",
+           "sucursal": "972",
+           "correlativo": "6665552",
+           "mail": "danilo.alfaro@mail.com",
            "fechaRegistro": "20220903",
            "estado": "E"
-         },
-        {
-            "tipodoc": "FME",
-            "sucursal": "972",
-            "correlativo": "6665552",
-            "mail": "danilo.alfaro@mail.com",
-            "fechaRegistro": "20220903",
-            "estado": "E"
-        }
-     ]
+       }
+    ]
 }
